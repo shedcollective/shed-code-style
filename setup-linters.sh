@@ -54,15 +54,15 @@ echo ""
 
 # CSS
 echo "[Installing CSS linter]"
-# Is CSS Comb installed?
-if ! which csscomb >/dev/null; then
-    echo "CSSComb not installed, installing..."
-    npm install -g csscomb
+# Is sass-lint installed?
+if ! which sass-lint >/dev/null; then
+    echo "sass-lint not installed, installing..."
+    npm install -g sass-lint
     echo "done!"
 fi
 
 # Copy the linter into place
-NAME=".csscomb.json"
+NAME=".sass-lint.yml"
 LINK="$HOME"
 TARGET="$ROOT_DIR/css/$NAME";
 
