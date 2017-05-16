@@ -50,7 +50,7 @@ NAME=".jshint"
 LINK="$HOME"
 TARGET="$ROOT_DIR/js/$NAME";
 echo "Creating symlink at $LINK/$NAME -> $TARGET"
-if [ -d "$LINK/$NAME" ]; then
+if [ -f "$LINK/$NAME" ]; then
     echo "Removing old symlink"
     unlink "$LINK/$NAME";
 fi
@@ -72,9 +72,7 @@ fi
 NAME=".csscomb.json"
 LINK="$HOME"
 TARGET="$ROOT_DIR/css/$NAME";
-
 echo "Creating symlink at $LINK/$NAME -> $TARGET"
-
 if [ -f "$LINK/$NAME" ]; then
     echo "Removing old symlink"
     unlink "$LINK/$NAME";

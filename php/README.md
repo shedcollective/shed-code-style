@@ -4,9 +4,11 @@ We use a slightly modified version of the PSR-2 standard in that we have relaxed
 
 ## Exclusions
 
-The following sniffs are **removed** from the PSR-2 standard:
+The following sniffs are **removed** from the PSR-2 standard to allow for vertical whitespace:
 
 - `Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen`
+- `PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE`
+- `PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT`
 
 We encourage using a [reasonable] amount of vertical space in control structures. However, if the control structure is small then removing spaces is encouraged. Example:
 
