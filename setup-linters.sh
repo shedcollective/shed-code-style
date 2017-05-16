@@ -46,9 +46,16 @@ if ! which jshint >/dev/null; then
 fi
 
 # Copy the linter into place
-# @todo
+NAME=".jshint"
+LINK="$HOME"
+TARGET="$ROOT_DIR/js/$NAME";
+echo "Creating symlink at $LINK/$NAME -> $TARGET"
+if [ -d "$LINK/$NAME" ]; then
+    echo "Removing old symlink"
+    unlink "$LINK/$NAME";
+fi
+ln -s "$TARGET" "$LINK"
 echo ""
-
 
 # --------------------------------------------------------------------------
 
