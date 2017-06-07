@@ -1,6 +1,7 @@
 # PHP
 
-We use a slightly modified version of the PSR-2 standard in that we have relaxed a few of the sniffs.
+We use PHP Code Sniffer to lint PHP and implement a slightly modified ruleset derived from the PSR-2 standard (we have relaxed a few of the sniffs).
+
 
 ## Exclusions
 
@@ -12,7 +13,7 @@ We encourage using a [reasonable] amount of vertical space in control structures
 
 ```php
 if ($bIsLoggedIn) {
-    
+
     $sName = 'Foo',
     $sTime = date('H:i:s');
     echo "Hey, $sName! The time is $sTime";
@@ -30,6 +31,7 @@ The easiest way is to use the tool in the root of this repository:
 ```
 ./setup-linters.sh
 ```
+
 
 ## Configuring PHPStorm
 

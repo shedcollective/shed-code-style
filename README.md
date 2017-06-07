@@ -4,7 +4,7 @@ This repository explains our coding standards as well as provides instructions f
 
 - [PHP](php/README.md)
 - [JS](js/README.md)
-- [CSS](css/README.md)
+- [CSS/SASS](sass/README.md)
 
 If you're looking for a quick fix and want to install all the linters you can use:
 
