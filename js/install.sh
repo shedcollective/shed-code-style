@@ -1,5 +1,5 @@
 # JS
 echo "[Installing JS linter]"
 installBin "jshint"  "npm install -g jshint"
-# @todo - create link
+createLink ".jshint" "$HOME" "$ROOT_DIR/js/.jshint"
 echo ""
