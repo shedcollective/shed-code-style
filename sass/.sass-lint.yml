@@ -20,7 +20,10 @@ rules:
   no-attribute-selectors: 0
   no-color-hex: 0
   no-color-keywords: 1
-  no-color-literals: 1
+  no-color-literals:
+      - 1
+      -
+          allow-rgba: true
   no-combinators: 0
   no-css-comments: 1
   no-debug: 1
@@ -70,7 +73,7 @@ rules:
   empty-args: 1
   hex-length: 1
   hex-notation: 1
-  indentation: 
+  indentation:
     - 1
     -
       size: 4
