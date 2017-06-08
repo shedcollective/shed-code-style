@@ -9,7 +9,7 @@ This repository explains our coding standards as well as provides instructions f
 If you're looking for a quick fix and want to install all the linters you can use:
 
 ```
-./setup-linters.sh
+./install.sh
 ```
 
 This will ensure that all the linters are installed correctly and symlink the configuration files to the right place.

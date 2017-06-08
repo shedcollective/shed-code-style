@@ -8,7 +8,7 @@ We use sass-lint from Sass Tools to lint PHP. Currently configs must be defined 
 The easiest way is to use the tool in the root of this repository:
 
 ```
-./setup-linters.sh
+./install.sh
 ```
 
 

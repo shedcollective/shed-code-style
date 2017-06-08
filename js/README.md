@@ -1,8 +1,6 @@
 # JavaScript
 
-We use js-hint to lint JS.
-
-> @todo - expand on this
+We use js-hint to lint JS and have adopted the AirBnb Code style (with some additions).
 
 
 ## Installing the linter
@@ -10,7 +8,7 @@ We use js-hint to lint JS.
 The easiest way is to use the tool in the root of this repository:
 
 ```
-./setup-linters.sh
+./install.sh
 ```
 
 

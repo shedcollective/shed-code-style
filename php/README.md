@@ -31,7 +31,7 @@ if ($bIsLoggedIn) {
 The easiest way is to use the tool in the root of this repository:
 
 ```
-./setup-linters.sh
+./install.sh
 ```
 
 
