@@ -3,13 +3,16 @@
     "env": {
         "browser": true,
         "jquery": true,
-        "es6": true,
+        "es6": true
     },
     "rules": {
         "indent": ["error", 4],
         "quotes": ["error", "single"],
         "semi": ["error", "always"],
         "no-trailing-spaces": "error",
-        "valid-jsdoc": "error"
+        "valid-jsdoc": "error",
+        "brace-style": "error",
+        "keyword-spacing": "error",
+        "space-before-function-paren": ["error", "never"]
     }
 }
