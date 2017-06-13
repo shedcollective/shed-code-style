@@ -14,5 +14,8 @@
         "brace-style": "error",
         "keyword-spacing": "error",
         "space-before-function-paren": ["error", "never"]
+    },
+    "parserOptions": {
+        "sourceType": "module"
     }
 }
