@@ -52,3 +52,7 @@ The easiest way is to use the tool in the root of this repository:
 1. Ensure Package Control is installed
 2. Ensure `SublimeLinter` package is installed
 3. Install `SublimeLinter-phpcs` package
+
+## Configuring Atom
+
+1. On the CLI type `apm install linter-phpcs`

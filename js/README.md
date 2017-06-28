@@ -26,3 +26,7 @@ eshint
 1. Ensure Package Control is installed
 2. Ensure `SublimeLinter` package is installed
 3. Install `SublimeLinter-contrib-eslint` package
+
+## Configuring Atom
+
+1. On the CLI type `apm install linter-eslint`

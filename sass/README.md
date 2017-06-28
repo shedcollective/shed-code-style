@@ -18,7 +18,7 @@ The easiest way is to use the tool in the root of this repository:
 2. Install the `Sass Lint` plugin by `Ido` and restart PHPStorm
 3. Enable `Sass Lint` in preferences
 4. Set the paths to `node` and `sass-lint`
-5. Let `sass-lint` search for the .sass-lint.yml` file
+5. Let `sass-lint` search for the `.sass-lint.yml` file
 6. Click OK
 
 ## Configuring Sublime
@@ -26,3 +26,7 @@ The easiest way is to use the tool in the root of this repository:
 1. Ensure Package Control is installed
 2. Ensure `SublimeLinter` package is installed
 3. Install `SublimeLinter-contrib-sass-lint` package
+
+## Configuring Atom
+
+1. On the CLI type `apm install linter-sass-lint`
