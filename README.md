@@ -30,4 +30,4 @@ Go to each of the `Javascript`, `PHP` and `Sass` headers individually and make s
 
 - In `Javascript`, use `ESLint Fixer` as the default beautifier
 - In `PHP`, use `PHP-CS-Fixer` as the default beautifier
-- In `SCSS`, use `SassConvert` as the default beautifier
+- In `Sass`, use `SassConvert` as the default beautifier
