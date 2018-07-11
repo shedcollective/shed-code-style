@@ -20,7 +20,12 @@
         "valid-jsdoc": "error",
         "brace-style": "error",
         "keyword-spacing": "error",
-        "space-before-function-paren": ["error", "never"]
+        "space-before-function-paren": ["error", "never"],
+        "no-console": 0,
+        # Vue specific stylings
+        "vue/html-indent": ["warn", 4],
+        "vue/v-bind-style": ["warn", "longform"],
+        "vue/v-on-style": ["warn", "longform"]
     },
     "parserOptions": {
         "sourceType": "module"
