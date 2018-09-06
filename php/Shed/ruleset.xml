@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="Shed">
+    <description>The PHP Coding Standards as adopted by Shed</description>
+    <rule ref="PSR2">
+        <!-- Allow use of vertical space -->
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen" />
+        <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
+        <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT" />
+    </rule>
+    <rule ref="Generic.Formatting.SpaceAfterCast" />
+</ruleset>
