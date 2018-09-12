@@ -28,6 +28,12 @@
         "vue/v-on-style": ["warn", "longform"]
     },
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaVersion": 2017
+    },
+    "globals": {
+        "axios": false,
+        "jQuery": false,
+        "_" : false,
     }
 }
