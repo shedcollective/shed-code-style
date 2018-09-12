@@ -24,7 +24,7 @@
     },
     "parserOptions": {
         "sourceType": "module",
-        "ecmaVersion": "7"
+        "ecmaVersion": 2017
     },
     "globals": {
         "axios": false,
