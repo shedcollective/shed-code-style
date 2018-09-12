@@ -23,8 +23,12 @@
         "space-before-function-paren": ["error", "never"]
     },
     "parserOptions": {
-        "sourceType": "module"
         "sourceType": "module",
         "ecmaVersion": "7"
+    },
+    "globals": {
+        "axios": false,
+        "jQuery": false,
+        "_" : false,
     }
 }
