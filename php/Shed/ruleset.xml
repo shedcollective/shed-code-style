@@ -4,6 +4,7 @@
     <rule ref="PSR2">
         <!-- Allow use of vertical space -->
         <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen" />
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose" />
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT" />
     </rule>
