@@ -6,7 +6,6 @@ We use eshint to lint JS and have adopted the ESLint recommended defaults (with 
 ## Installing the linter
 
 The easiest way is to use the tool in the root of this repository:
-eshint
 ```
 ./install.sh
 ```
