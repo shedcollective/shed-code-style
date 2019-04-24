@@ -12,7 +12,7 @@ eshint
 ```
 
 
-## Configuring PHPStorm
+## Configuring PHPStorm
 
 1. Open rpeferences
 2. Go to `Languages & Frameworks › JavaScript › Code Quality Tools › ESLint`
