@@ -12,7 +12,7 @@ The easiest way is to use the tool in the root of this repository:
 ```
 
 
-## Configuring PHPStorm
+## Configuring PHPStorm
 
 1. Open preferences
 2. Install the `Sass Lint` plugin by `Ido` and restart PHPStorm
