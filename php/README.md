@@ -35,7 +35,7 @@ The easiest way is to use the tool in the root of this repository:
 ```
 
 
-## Configuring PHPStorm
+## Configuring PHPStorm
 
 1. Open preferences
 2. Go to `Languages & Frameworks › PHP › Code Sniffer`
