@@ -14,12 +14,7 @@ The easiest way is to use the tool in the root of this repository:
 
 ## Configuring PHPStorm
 
-1. Open preferences
-2. Install the `Sass Lint` plugin by `Ido` and restart PHPStorm
-3. Enable `Sass Lint` in preferences
-4. Set the paths to `node` and `sass-lint`
-5. Let `sass-lint` search for the `.sass-lint.yml` file
-6. Click OK
+This will be automatic provided the `Shed` code style is being used.
 
 ## Configuring Sublime
 

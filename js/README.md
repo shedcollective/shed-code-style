@@ -15,10 +15,8 @@ The easiest way is to use the tool in the root of this repository:
 
 1. Open rpeferences
 2. Go to `Languages & Frameworks › JavaScript › Code Quality Tools › ESLint`
-3. Enable the tool
-4. Configure the tool to use the global binaries
-5. Ensure that "Automatic" is set for configuration file
-5. Click OK
+3. Enable `Automatic ESLint configuration`
+4. Click OK
 
 ## Configuring Sublime
 
