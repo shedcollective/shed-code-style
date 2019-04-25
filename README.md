@@ -32,9 +32,26 @@ Right now, you'll need to manually configure the code formatter:
 
 1. Open preferences
 2. Navigate to code style
-3. Set all the fields
+3. Import config from `./phpstorm/codestyle/Shed.xml`
+4. Ensure `Shed` is the selected sceheme for the project
+5. Click OK
 
-> @todo - research a way to automate the configuration, if possible
+In addition, ensure that the correct settings are set for new projects:
+
+1. File › Other Settings › Preferences for new projects
+2. Navigate to code style
+3. Set `Shed` as the scheme
+4. Click OK
+
+This will run when you invoke code formatting (cmd+alt+l). To do this on save do the following:
+
+1. Install `Save Actions` plugin
+2. Configure at `Preferences › Other Settings › Save actions`
+3. Check `Activate save actions on save`
+4. Enable formatting options
+5. Click OK
+
+Remember and do the same in  "Preferences for new projects"
 
 
 ### Sublime
