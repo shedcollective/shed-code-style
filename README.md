@@ -28,11 +28,10 @@ Remembering code style is boring, beautifiers automatically enforce code formatt
 
 ### PHPStorm
 
-Right now, you'll need to manually configure the code formatter:
+Once you have run `./install.sh` your installation of PHPStorm should have a new codestyle called `Shed` installed. Update preferences to use it:
 
 1. Open preferences
 2. Navigate to code style
-3. Import config from `./phpstorm/codestyle/Shed.xml`
 4. Ensure `Shed` is the selected sceheme for the project
 5. Click OK
 
