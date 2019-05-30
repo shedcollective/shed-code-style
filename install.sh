@@ -29,12 +29,7 @@ createLink ()
     TARGET="$3";
 
     echo -e "Creating symlink at ${COMMENT}$LINK/$NAME -> $TARGET${NC}"
-
-    if [ -f "$LINK/$NAME" ] || [ -d "$LINK/$NAME" ]; then
-        echo -e "Removing old symlink"
-        unlink "$LINK/$NAME";
-    fi
-    ln -s "$TARGET" "$LINK"
+    ln -sf "$TARGET" "$LINK"
 }
 
 # --------------------------------------------------------------------------
