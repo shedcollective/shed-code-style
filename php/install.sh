@@ -22,8 +22,14 @@ DIRS=(
 for DIR in "${DIRS[@]}"
 do
     :
+    # JetBrains Account config sync
     if [[ -d "${DIR}" ]]; then
         createLink "Shed.xml" "${DIR}/jba_config/codestyles" "$ROOT_DIR/php/codestyle/Shed.xml"
+    fi
+
+    # Regular codestyles
+    if [[ -d "${DIR}" ]]; then
+        createLink "Shed.xml" "${DIR}/codestyles" "$ROOT_DIR/php/codestyle/Shed.xml"
     fi
 done
 
