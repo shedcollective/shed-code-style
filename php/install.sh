@@ -17,6 +17,7 @@ DIRS=(
     "$HOME/Library/Preferences/PhpStorm2018.2"
     "$HOME/Library/Preferences/PhpStorm2018.3"
     "$HOME/Library/Preferences/PhpStorm2019.1"
+    "$HOME/Library/Preferences/PhpStorm2019.2"
 )
 
 for DIR in "${DIRS[@]}"
