@@ -9,4 +9,8 @@
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT" />
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.Formatting.MultipleStatementAlignment" />
+    <rule ref="Generic.PHP.DisallowShortOpenTag" />
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
 </ruleset>
