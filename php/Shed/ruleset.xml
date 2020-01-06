@@ -8,9 +8,13 @@
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT" />
     </rule>
+    <rule ref="Generic.Formatting.DisallowMultipleStatements" />
     <rule ref="Generic.Formatting.SpaceAfterCast" />
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
     <rule ref="Generic.Formatting.MultipleStatementAlignment" />
     <rule ref="Generic.PHP.DisallowShortOpenTag" />
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace" />
+    <rule ref="Squiz.Arrays.ArrayDeclaration">
+        <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned" />
+    </rule>
 </ruleset>
