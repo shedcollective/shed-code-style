@@ -19,18 +19,16 @@ DIRS=(
     "$HOME/Library/Preferences/PhpStorm2019.1"
     "$HOME/Library/Preferences/PhpStorm2019.2"
     "$HOME/Library/Preferences/PhpStorm2019.3"
+    "$HOME/Library/Application Support/JetBrains/PhpStorm2020.1"
 )
 
 for DIR in "${DIRS[@]}"
 do
     :
-    # JetBrains Account config sync
     if [[ -d "${DIR}" ]]; then
+        # JetBrains Account config sync
         createLink "Shed.xml" "${DIR}/jba_config/codestyles" "$ROOT_DIR/php/codestyle/Shed.xml"
-    fi
-
-    # Regular codestyles
-    if [[ -d "${DIR}" ]]; then
+        # Regular codestyles
         createLink "Shed.xml" "${DIR}/codestyles" "$ROOT_DIR/php/codestyle/Shed.xml"
     fi
 done
