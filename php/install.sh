@@ -21,6 +21,7 @@ DIRS=(
     "$HOME/Library/Preferences/PhpStorm2019.3"
     "$HOME/Library/Application Support/JetBrains/PhpStorm2020.1"
     "$HOME/Library/Application Support/JetBrains/PhpStorm2020.2"
+    "$HOME/Library/Application Support/JetBrains/PhpStorm2020.3"
 )
 
 for DIR in "${DIRS[@]}"
